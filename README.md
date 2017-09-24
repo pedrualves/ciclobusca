@@ -1,2 +1,2 @@
-# ciclobusca
-simple test project pwa ciclobusca
+# simple-pwa
+simple test study progressive web app

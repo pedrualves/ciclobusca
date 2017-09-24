@@ -1,11 +1,7 @@
-const http = require('http'),
-      path = require('path'),
-      express = require('express'),
-      router = express(),
-      server = http.createServer(router)
+var http = require('http')
+,app = require('./config/express')
+db = require('./config/database');
 
-router.use(express.static(path.resolve(__dirname, 'client')));
-
-server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function(){
-  console.log('running...');
+http.createServer(app).listen(3000, function() {
+console.log('Servidor escutando na porta: ' + this.address().port);
 });

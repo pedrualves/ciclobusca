@@ -1,17 +1,17 @@
 {
-  "name": "Ciclobusca",
+  "name": "alurapic",
   "version": "1.0.0",
-  "description": "Ciclobusca",
+  "description": "",
   "main": "server.js",
-  "repository": "https://github.com/rquelcosta/ciclobusca.git",
-  "author": "Raquel Costa",
-  "dependencies": {
-    "express": "~3.2.4"
-  },
-  "engines": {
-    "node": "8.2.1"
-  },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "express": "^4.12.3",
+    "nedb": "^1.1.2"
   }
 }
