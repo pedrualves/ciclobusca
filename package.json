@@ -1,0 +1,17 @@
+{
+  "name": "Ciclobusca",
+  "version": "1.0.0",
+  "description": "Ciclobusca",
+  "main": "server.js",
+  "repository": "https://github.com/rquelcosta/ciclobusca.git",
+  "author": "Raquel Costa",
+  "dependencies": {
+    "express": "~3.2.4"
+  },
+  "engines": {
+    "node": "8.2.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
